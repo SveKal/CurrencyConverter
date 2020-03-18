@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{    
+    position: fixed;
+    top: 40%;
+    left: 45%;  
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: lightblue; 
+    margin: 5%;
+}
+
+select, input, marquee {
+    margin: 10px;    
+}
+
+h2, button {
+    margin: 10px;
+    padding: 5px;
+}
