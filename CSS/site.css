@@ -15,11 +15,12 @@
     margin: 5%;
 }
 
-select, input, marquee {
-    margin: 10px;    
+select, input, marquee, button {
+    margin: 10px;  
+    width: 85%;  
 }
 
-h2, button {
+h2 {
     margin: 10px;
     padding: 5px;
 }
