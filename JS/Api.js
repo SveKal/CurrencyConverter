@@ -1,3 +1,4 @@
+//setting up API call
 const api = (function () {
 
     async function getRates(url)
