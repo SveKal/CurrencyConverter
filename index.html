@@ -10,20 +10,24 @@
     <div class="container">
         <div class="head">
             <h2>Currency Converter</h2>
-            <marquee class="rollingBand" id="roller" direction="left">Palim</marquee>
+            <marquee class="rollingBand" id="roller" direction="left">Convert currencies by picking a base and target currency and enter a base amount. Click 'Calculate'!</marquee>
         </div>
         <div class="middle">            
             <div class="base">
-                <select id="base" placeholder="From currency"></select>                
+                <label for="base">Base Currency</label>
+                <select id="base"></select>                
             </div>
             <div class="baseInput">
+                <label for="inputBase">Base Amount</label>
                 <input type="text" id="inputBase" class="input">
             </div>
             <div class="target">
+                <label for="target">Target Currency</label>
                 <select name="Target currency" id="target"></select>                
             </div>                     
             <div class="output">
-                <input  id="output" class="input">
+                <label for="output">Target Amount</label>
+                <input  id="output" class="input" readonly disabled>
             </div>
         </div>
         <div class="buttom">
